@@ -1,0 +1,104 @@
+{
+  "info": {
+    "_postman_id": "59c8fba3-f536-4cfe-b200-39882eca65cd",
+    "name": "Furniture API - Deni Aprianto 2428240095",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "53068115",
+    "_collection_link": "https://go.postman.co/collection/53068115-59c8fba3-f536-4cfe-b200-39882eca65cd?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "Create",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n  \"nama_furniture\": \"Meja Belajar\",\r\n  \"bahan\": \"Kayu Jati\",\r\n  \"harga\": 750000\r\n}\r\n",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:3000/api",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "api"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Read",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    },
+    {
+      "name": "Read berdasarkan Id",
+      "request": {
+        "method": "GET",
+        "header": []
+      },
+      "response": []
+    },
+    {
+      "name": "Update",
+      "request": {
+        "method": "PUT",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n   \"nama_furniture\": \"Meja Belajar\",\r\n   \"bahan\": \"Kayu Jati\",\r\n   \"harga\": 800000\r\n}\r\n",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:3000/api/6ad0817ef09a1d2a779701a9",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "api",
+            "6ad0817ef09a1d2a779701a9"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "Delete",
+      "request": {
+        "method": "DELETE",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:3000/api/6ad084317b044e8f31764774",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "3000",
+          "path": [
+            "api",
+            "6ad084317b044e8f31764774"
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
